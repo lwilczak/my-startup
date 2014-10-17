@@ -9,7 +9,7 @@ development:
   database: mystartup_development
   pool: 5
   username: postgres
-  password: 
+  password: postgres
   host: localhost
  
 # Connect on a TCP socket. Omitted by default since the client uses a
@@ -36,7 +36,7 @@ test:
   database: mystartup_test
   pool: 5
   username: postgres
-  password: 
+  password: postgres
   host: localhost
  
 # Connect on a TCP socket. Omitted by default since the client uses a
@@ -60,7 +60,7 @@ production:
   database: mystartup_development
   pool: 5
   username: postgres
-  password: 
+  password: postgres
   host: localhost
  
 # Connect on a TCP socket. Omitted by default since the client uses a
